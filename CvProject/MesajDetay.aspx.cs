@@ -17,7 +17,7 @@ namespace CvProject
             TxtAdSoyad.Text= mesaj.ADSOYAD;
             TxtKonu.Text = mesaj.KONU;
             TxtMail.Text = mesaj.MAIL;
-            TxtMail.Text = mesaj.MESAJ;
+            TxtMesaj.Text = mesaj.MESAJ;
 
         }
     }
