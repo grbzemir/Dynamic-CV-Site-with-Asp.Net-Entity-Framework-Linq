@@ -9,8 +9,14 @@ namespace CvProject
 {
     public partial class Hakkımda : System.Web.UI.Page
     {
+
+
         protected void Page_Load(object sender, EventArgs e)
         {
+
+            DBCVENTITYEntities db = new DBCVENTITYEntities();
+            Repeater1.DataSource = db.TBLYETENEKLER.ToList();
+            Repeater1.DataBind();
 
         }
     }
