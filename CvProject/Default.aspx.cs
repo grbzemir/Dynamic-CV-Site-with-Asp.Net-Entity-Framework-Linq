@@ -19,6 +19,8 @@ namespace CvProject
             Repeater2.DataBind();
             Repeater3.DataSource = db.TBLHAKKIMDAA.ToList();
             Repeater3.DataBind();
+            Repeater4.DataSource = db.TBLYETENEKLER.ToList();
+            Repeater4.DataBind();
         }
 
     }

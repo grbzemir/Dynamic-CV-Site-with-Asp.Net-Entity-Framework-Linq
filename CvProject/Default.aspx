@@ -89,69 +89,24 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- services -->
 <section class="services" id="services">
 	<div class="container">
-		<h3 class="w3_head mb-4 text-left"> Services</h3>
-		<p class="iner mt-md-5 text-left"> Nunc fermentum adipiscing tempor cursus nascetur adipiscing adipiscing. Primis aliquam mus lacinia lobortis.Nunc fermentum adipiscing tempor cursus nascetur adipiscing adipiscing. </p>
+		<h3 class="w3_head mb-4 text-left"> Yetenekler</h3>
+		
 			<ul class="list-unstyled mt-5">
 				<li>
+					<asp:Repeater ID="Repeater4" runat="server">
+				<ItemTemplate>	
 					<div class="row">
 						<div class="col-2 ic-lft">
 							<span class="fa fa-code"></span>
 						</div>
 						<div class="col-10">
-							<h6>Fermentum adipiscing </h6>
+							<h6><%# Eval("YETENEK")%></h6>
+							<br />
 						</div>
 					</div>
-				</li>
-				<li>
-					<div class="row">
-						<div class="col-2 ic-lft">
-							<span class="fa fa-cubes"></span>
-						</div>
-						<div class="col-10">
-							<h6>Fermentum lobortis </h6>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="row">
-						<div class="col-2 ic-lft">
-							<span class="fa fa-book"></span>
-						</div>
-						<div class="col-10">
-							<h6>Tristique ante </h6>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="row">
-						<div class="col-2 ic-lft">
-							<span class="fa fa-coffee"></span>
-						</div>
-						<div class="col-10">
-							<h6>Nascetur adipiscing</h6>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="row">
-						<div class="col-2 ic-lft">
-							<span class="fa fa-bolt"></span>
-						</div>
-						<div class="col-10">
-							<h6>Primis aliquam mus</h6>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="row">
-						<div class="col-2 ic-lft">
-							<span class="fa fa-cog"></span>
-						</div>
-						<div class="col-10">
-							<h6>Lobortis phasellus</h6>
-						</div>
-					</div>
-				</li>
+					</ItemTemplate>
+                </asp:Repeater>
+				</li>						
 			</ul>
 	</div>
 </section>
@@ -170,22 +125,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- //news -->
 <!-- contact -->
 	 <section class="wedo" id="contact">
-	<h3 class="w3_head mb-4 text-left"> Contact Me</h3>
-	<p class="iner mt-md-5 text-left"> Nunc fermentum adipiscing tempor cursus nascetur adipiscing adipiscing. Primis aliquam mus lacinia lobortis.Nunc fermentum adipiscing tempor cursus nascetur adipiscing adipiscing. </p>
+	<h3 class="w3_head mb-4 text-left"> İletişim</h3>
+
 		<div class="contact_grid_right mt-5 mx-auto text-left">
-				<form action="#" method="post">
+				<form action="#" method="post" runat="server">
 					<div class="row contact_top">
 						<div class="col-sm-6">
-							<input type="text" name="Name" placeholder="Name" required="">
+							<asp:TextBox ID="TextBox1" runat="server" placeholder="Adınız"></asp:TextBox>
 						</div>
 						<div class="col-sm-6">
-							<input type="email" name="Email" placeholder="Email" required="">
+							<asp:TextBox ID="TextBox2" runat="server" placeholder="Mail Adresiniz"></asp:TextBox>
 						</div>
 					</div>	
-						<input type="text" name="Name" placeholder="Name" required="">
-						<textarea name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
-						<button type="submit" class="btn">Send Message</button>
-						<button type="reset" class="btn">Reset</button>
+						<asp:TextBox ID="TextBox3" runat="server" placeholder="Konu"></asp:TextBox>
+						<asp:TextBox ID="TextBox4" runat="server" placeholder="Mesajınız" TextMode="MultiLine" Height="30"></asp:TextBox>
+					    <asp:Button ID="Button1" runat="server" CssClass="btn btn-info" Text="Gönder" />
+						<asp:Button ID="Button2" runat="server" CssClass="btn btn-warning" Text="Vazgeç" />
 						<div class="clearfix"></div>
 				</form>
 			</div>
