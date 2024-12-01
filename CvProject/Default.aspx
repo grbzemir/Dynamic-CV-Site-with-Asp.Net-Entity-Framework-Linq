@@ -35,8 +35,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <div class="sidenav text-center">
 		<div class="side_top">
 			<img src="web/images/about.jpg" alt="news image" class="img-fluid navimg">
-			<h1 class="top_hd mt-2"><a href="index.html">Conjoint</a></h1>
-			<p class="top_hdp mt-2">Fermentum lobortis non tristique ante proin sociis</p>
+			<h1 class="top_hd mt-2"><a href="index.html">Emircan Gürbüz</a></h1>
+			<p class="top_hdp mt-2">Full Stack Developer</p>
         </div>
 		<!-- header -->
         <header>
