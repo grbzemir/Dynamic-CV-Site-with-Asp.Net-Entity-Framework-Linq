@@ -87,26 +87,16 @@
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
     <Content Include="Web.config" />
-    <Content Include="web\css\easy-responsive-tabs.css" />
-    <Content Include="web\css\font-awesome.css" />
-    <Content Include="web\css\lightcase.css" />
+    <Content Include="web\css\bootstrap.css" />
+    <Content Include="web\css\fontawesome-all.min.css" />
     <Content Include="web\css\style.css" />
     <Content Include="web\fonts\fontawesome-webfont.svg" />
-    <Content Include="web\images\1.jpg" />
-    <Content Include="web\images\1.png" />
-    <Content Include="web\images\2.jpg" />
-    <Content Include="web\images\3.jpg" />
-    <Content Include="web\images\4.jpg" />
-    <Content Include="web\images\5.jpg" />
-    <Content Include="web\images\6.jpg" />
-    <Content Include="web\images\7.jpg" />
-    <Content Include="web\images\8.jpg" />
-    <Content Include="web\images\banner.jpg" />
+    <Content Include="web\images\about.jpg" />
+    <Content Include="web\images\banner1.jpg" />
+    <Content Include="web\images\g1.jpg" />
+    <Content Include="web\images\g2.jpg" />
+    <Content Include="web\images\g3.jpg" />
     <Content Include="web\index.html" />
-    <Content Include="web\js\easyResponsiveTabs.js" />
-    <Content Include="web\js\jquery-2.2.3.min.js" />
-    <Content Include="web\js\jquery.events.touch.js" />
-    <Content Include="web\js\lightcase.js" />
     <Content Include="web\w3layouts-License.txt" />
   </ItemGroup>
   <ItemGroup>
@@ -164,11 +154,11 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-    <Content Include="web\fonts\fontawesome-webfont.eot" />
-    <Content Include="web\fonts\fontawesome-webfont.ttf" />
     <Content Include="web\fonts\fontawesome-webfont.woff" />
     <Content Include="web\fonts\fontawesome-webfont.woff2" />
     <Content Include="web\fonts\FontAwesome.otf" />
+    <Content Include="web\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="web\fonts\glyphicons-halflings-regular.woff2" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
