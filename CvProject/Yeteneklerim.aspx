@@ -2,10 +2,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    
 
-
-    <table class="table table-bordered"> 
+     <table class="table table-bordered" style="margin-left:20px; margin-right:20px;"> 
         <tr> <%--satır olusturdum--%>
             <%--satır baslıkları olusturdum--%>
             <th>ID</th>

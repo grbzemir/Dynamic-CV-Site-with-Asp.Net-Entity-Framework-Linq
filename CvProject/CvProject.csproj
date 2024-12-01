@@ -103,6 +103,7 @@
     <Content Include="web\index.html" />
     <Content Include="web\w3layouts-License.txt" />
     <Content Include="YetenekSil.aspx" />
+    <Content Include="İletişim.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin.Master.cs">
@@ -184,6 +185,13 @@
     </Compile>
     <Compile Include="YetenekSil.aspx.designer.cs">
       <DependentUpon>YetenekSil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="İletişim.aspx.cs">
+      <DependentUpon>İletişim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="İletişim.aspx.designer.cs">
+      <DependentUpon>İletişim.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
