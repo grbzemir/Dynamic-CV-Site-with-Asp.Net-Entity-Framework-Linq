@@ -139,7 +139,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>	
 						<asp:TextBox ID="TextBox3" runat="server" placeholder="Konu"></asp:TextBox>
 						<asp:TextBox ID="TextBox4" runat="server" placeholder="Mesajınız" TextMode="MultiLine" Height="30"></asp:TextBox>
-					    <asp:Button ID="Button1" runat="server" CssClass="btn btn-info" Text="Gönder" />
+					    <asp:Button ID="Button1" runat="server" CssClass="btn btn-info" Text="Gönder" OnClick="Button1_Click" />
 						<asp:Button ID="Button2" runat="server" CssClass="btn btn-warning" Text="Vazgeç" />
 						<div class="clearfix"></div>
 				</form>

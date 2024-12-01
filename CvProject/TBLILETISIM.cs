@@ -18,5 +18,6 @@ namespace CvProject
         public string ADSOYAD { get; set; }
         public string MAIL { get; set; }
         public string MESAJ { get; set; }
+        public string KONU { get; set; }
     }
 }
