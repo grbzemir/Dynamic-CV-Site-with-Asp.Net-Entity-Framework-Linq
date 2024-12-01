@@ -25,12 +25,17 @@ namespace CvProject
         protected void Button1_Click(object sender, EventArgs e)
         {
 
+           
+
+        }
+
+        protected void Button1_Click1(object sender, EventArgs e)
+        {
             int x = int.Parse(Request.QueryString["ID"]);
             var deger = db.TBLYETENEKLER.Find(x);
             deger.YETENEK = TextBox1.Text;
             db.SaveChanges();
             Response.Redirect("Yeteneklerim.Aspx");
-
         }
     }
 }
