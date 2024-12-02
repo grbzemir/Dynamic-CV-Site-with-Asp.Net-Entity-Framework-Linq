@@ -11,7 +11,7 @@ namespace CvProject
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //database bağlantısı
             DBCVENTITYEntities db = new DBCVENTITYEntities();
             var mesajlar = db.TBLILETISIM.ToList();
             Repeater1.DataSource= mesajlar;
