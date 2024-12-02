@@ -23,9 +23,10 @@
     </div>
     <ul class="nav navbar-nav">
       <li><a href="İstatistik.Aspx">İstatistikler</a></li>
-      <li><a href="#">Deneyimler</a></li>
+      <li><a href="Hakkımda.Aspx">Hakkımda</a></li>
       <li><a href="Yeteneklerim.Aspx">Yeteneklerim</a></li>
       <li><a href="İletişim.Aspx">İletişim</a></li>
+      <li><a href="Adres.Aspx">Adres</a></li>
     </ul>
   </div>
 </nav>

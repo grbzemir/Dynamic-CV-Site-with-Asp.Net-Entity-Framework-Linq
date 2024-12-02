@@ -75,8 +75,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Adres.aspx" />
+    <Content Include="AdresEkle.aspx" />
+    <Content Include="AdresGüncelle.aspx" />
+    <Content Include="AdresSil.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Deneyimler.aspx" />
+    <Content Include="Hakkımda.aspx" />
+    <Content Include="HakkımdaSil.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Login\css\main.css" />
     <Content Include="Login\css\util.css" />
@@ -201,6 +207,34 @@
     <Compile Include="Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
     </Compile>
+    <Compile Include="Adres.aspx.cs">
+      <DependentUpon>Adres.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Adres.aspx.designer.cs">
+      <DependentUpon>Adres.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdresEkle.aspx.cs">
+      <DependentUpon>AdresEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdresEkle.aspx.designer.cs">
+      <DependentUpon>AdresEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdresGüncelle.aspx.cs">
+      <DependentUpon>AdresGüncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdresGüncelle.aspx.designer.cs">
+      <DependentUpon>AdresGüncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdresSil.aspx.cs">
+      <DependentUpon>AdresSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdresSil.aspx.designer.cs">
+      <DependentUpon>AdresSil.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -214,6 +248,20 @@
     </Compile>
     <Compile Include="Deneyimler.aspx.designer.cs">
       <DependentUpon>Deneyimler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hakkımda.aspx.cs">
+      <DependentUpon>Hakkımda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hakkımda.aspx.designer.cs">
+      <DependentUpon>Hakkımda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HakkımdaSil.aspx.cs">
+      <DependentUpon>HakkımdaSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HakkımdaSil.aspx.designer.cs">
+      <DependentUpon>HakkımdaSil.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>

@@ -69,7 +69,7 @@
 					</div>
 
 					<div class="container-login100-form-btn">
-						<asp:Button ID="Button1" runat="server" Text="Button" CssClass="login100-form-btn" />
+						<asp:Button ID="Button1" runat="server" Text="Giriş Yap" class="login100-form-btn" OnClick="Button1_Click" />
 					</div>
 				</form>
 			</div>
