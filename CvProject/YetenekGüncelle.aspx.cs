@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 namespace CvProject
 {
     public partial class YetenekGüncelle : System.Web.UI.Page
-    {
+    {//veri tabanı bağlantısı
         DBCVENTITYEntities db = new DBCVENTITYEntities();
         protected void Page_Load(object sender, EventArgs e)
         {
