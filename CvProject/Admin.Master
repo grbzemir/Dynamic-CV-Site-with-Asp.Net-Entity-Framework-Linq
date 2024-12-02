@@ -22,7 +22,7 @@
       <a class="navbar-brand" href="#">Cv Sitesi Linq</a>
     </div>
     <ul class="nav navbar-nav">
-      <li><a href="#">Eğitim Hayatım</a></li>
+      <li><a href="İstatistik.Aspx">İstatistikler</a></li>
       <li><a href="#">Deneyimler</a></li>
       <li><a href="Yeteneklerim.Aspx">Yeteneklerim</a></li>
       <li><a href="İletişim.Aspx">İletişim</a></li>
