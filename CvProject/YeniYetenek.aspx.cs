@@ -14,6 +14,7 @@ namespace CvProject
 
         }
 
+        //Database bağlantısı
         DBCVENTITYEntities db = new DBCVENTITYEntities();
         protected void Button1_Click(object sender, EventArgs e)
         {
