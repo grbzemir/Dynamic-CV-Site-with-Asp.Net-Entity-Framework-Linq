@@ -13,7 +13,7 @@ namespace CvProject
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //database bağlantısı
             DBCVENTITYEntities db = new DBCVENTITYEntities();
             Repeater1.DataSource = db.TBLYETENEKLER.ToList();
             Repeater1.DataBind();
