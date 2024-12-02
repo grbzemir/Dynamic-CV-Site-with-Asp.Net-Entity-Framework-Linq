@@ -11,6 +11,7 @@ namespace CvProject
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            //Database bağlantısı
             DBCVENTITYEntities db = new DBCVENTITYEntities();
             int x = int.Parse(Request.QueryString["ID"]);
             var mesaj = db.TBLILETISIM.Find(x);
