@@ -50,7 +50,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <div class="icon-text">
             <h3>
                 <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label></h3>
-            <p>Kasadaki Tutar</p>
+            <p>Toplam Yetenek</p>
         </div>
         <div class="clearfix"></div>
     </div>
@@ -60,7 +60,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
         <div class="icon-text">
             <h3><asp:Label ID="Label2" runat="server" Text="Label"></asp:Label></h3>
-            <p>Toplam Üye</p>
+            <p>Gelen Mesaj Sayısı</p>
         </div>
         <div class="clearfix"></div>
     </div>
@@ -70,7 +70,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
         <div class="icon-text">
             <h3><asp:Label ID="Label3" runat="server" Text="Label"></asp:Label></h3>
-            <p>Kitap Sayımız</p>
+            <p>Ortalama Derece Puanı</p>
         </div>
         <div class="clearfix"></div>
     </div>
@@ -80,7 +80,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
         <div class="icon-text">
             <h3><asp:Label ID="Label4" runat="server" Text="Label"></asp:Label></h3>
-            <p>Emanet Kitaplar</p>
+            <p>En Yüksek Derece</p>
         </div>
         <div class="clearfix"></div>
     </div>
@@ -124,7 +124,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="skill2" style="width:76%"></div>
             </div>
         </div>
-        <p>Kütüphane Yönetim Sistemi projemizin admin paneli kısmındasınız. Kütüphane Sistemi size iyi okumalar diler.</p>
+        <p>Admin Panel : Emircan Gürbüz</p>
     </div>
     <div class="clearfix"></div>
 </div>
